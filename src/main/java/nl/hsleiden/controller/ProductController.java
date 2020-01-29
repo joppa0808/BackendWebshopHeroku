@@ -1,7 +1,6 @@
 package nl.hsleiden.controller;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import jdk.nashorn.internal.runtime.options.LoggingOption;
 import nl.hsleiden.View;
 import nl.hsleiden.auth.Role;
 import nl.hsleiden.exception.ResourceNotFoundException;
