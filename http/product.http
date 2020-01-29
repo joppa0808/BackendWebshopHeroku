@@ -1,0 +1,18 @@
+GET http://localhost:8080/api/products/beschrijving/21
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+###
+
+PUT http://localhost:8080/api/products/21
+Content-Type: application/json
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+{
+  "productname": "baba",
+  "price": 343.0,
+  "imagepath": "hallopath"
+}
+
+###

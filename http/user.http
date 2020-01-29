@@ -1,0 +1,106 @@
+###
+
+
+GET http://localhost:8080/api/users
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+###
+
+GET http://localhost:8080/api/users
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+{
+  "email": "rerere@nl",
+  "password": "eeeeee"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+{
+"username": "emai",
+"password": "password"
+}
+
+###
+POST http://localhost:8080/api/instructors/
+Content-Type: application/json
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+###
+PUT http://localhost:8080/api/users/10
+Content-Type: application/json
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+{
+  "email": "dsadasda",
+  "password": "dsadasd"
+}
+###
+
+GET http://localhost:8080//api/users/me
+Content-Type: application/json
+Accept: application/json
+
+{
+  "password": "newpassword"
+}
+
+###
+
+GET http://localhost:8080/api/users/55
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+
+###
+POST http://localhost:8080/api/users/
+Content-Type: application/json
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+{
+
+}
+
+###
+
+DELETE http://localhost:8080/api/shoppingcarts/55
+Content-Type: application/json
+Accept: application/json
+Authorization: Basic joost testtest
+
+//{
+//    "userid": 55,
+//    "productid": 17,
+//    "quantity": 12
+//  }
+
+###
+
+GET http://localhost:8080/api/users/7
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+###
+
+GET http://localhost:8080/api/employees/1
+Accept: application/json
+Authorization: Basic bashar@email.nl 123
+
+###
