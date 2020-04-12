@@ -67,7 +67,6 @@ public class ProductController {
             product.setPrice(updatedProduct.getPrice());
             product.setImagePath(updatedProduct.getImagePath());
             product.setProductbeschrijving(updatedProduct.getproductbeschrijving());
-
             return productRepository.save(product);
         }).orElseThrow(() -> new ResourceNotFoundException("product not found with id " + productid));
     }
